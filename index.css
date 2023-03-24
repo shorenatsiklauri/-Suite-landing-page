@@ -405,6 +405,9 @@ footer h1 {
   
 
 @media screen and (min-width:992px) {
+   
+    body { margin-left: 20px;}
+   
 
   main {
     margin-left: 160px;
