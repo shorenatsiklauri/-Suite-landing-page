@@ -1,0 +1,556 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    body{
+        width:100vw;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow-x: hidden;
+        font-family: 'Epilogue', sans-serif;
+        background: #F2F2F2;
+        
+        
+    }
+ header {
+    
+    display: flex;
+    justify-content: space-between;
+     
+
+ }
+ header button {
+height: 48px;
+width: 182px;
+border-radius: 6px;
+border: 1px solid #172339;
+border-radius: 6px;
+background: #F2F2F2;
+ }
+header p{
+height: 32px;
+left: 0%;
+right: 76.38%;
+top: calc(50% - 32px/2);
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 32px;
+letter-spacing: -0.444444px;
+color: #172339;
+ }
+
+ 
+  main {
+    margin-left: 16px;
+    margin-right: 16px;
+       
+        
+  }
+  .supersolutionbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    margin-right: 16px;
+    
+  }
+  .supersolutionbox svg {
+
+    margin-left:10px;
+    top: 128px;     
+    width: 300px;
+    height: 20px;
+    color: #172339;
+      }
+.superboldtext {
+  margin-left: 16px;
+font-family: 'Epilogue';
+font-weight: 400;
+font-size: 38px;
+line-height: 44px;
+letter-spacing: 0.08px;
+color: #172339 }
+
+.superlighttext {
+width: 343px;
+height: 84px;
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: 0.0888889px;
+color: #49566D; }
+
+.buttonrequestbeta {
+  margin-left: -100px;
+ margin-bottom: 40px;
+height: 61px;
+width: 250px;
+left: 0px;
+top: 0px;
+border-radius: 6px;
+background: #172339;
+border-radius: 6px;
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 32px;
+letter-spacing: -0.18px;
+color: #FAF8F6;
+
+}
+
+  .mobpicturehero {
+height: 240px;
+margin-right: 16px;
+border-radius: 15px;
+
+
+  }
+  .boxfor3smalltexts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .smallboldtexts {
+width: 343px;
+height: 56px;
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+text-align: center;
+color: #172339;
+margin-top: 20px;
+
+}
+  
+  .smalllighttexts {
+    width: 343px;
+    height: 26px;
+    top: 862px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-left: 125px;
+    letter-spacing: 2.5px;
+    color: #49566D;
+   
+    
+  }
+
+  .box2Itjustworks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #172339;
+    border-radius: 15px;
+    margin-top:250px;
+      }
+
+    .box2Itjustworks img {
+width: 252px;
+left: 170px;
+top: 0px;
+border-radius: 0px;
+margin-top: -50%;
+  }
+  .colorsvg {
+ mix-blend-mode: normal;
+opacity: 0.18;
+margin-top: -500px;
+       
+  }
+  .boldtextbox2 {
+
+margin-top: -60px;
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+letter-spacing: -0.416667px;
+
+color: #FAF8F6
+  }
+  .lighttextbox2 {
+
+left: 20.07%;
+right: 20.07%;
+top: 65.34%;
+bottom: 17.44%;
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+text-align: center;
+letter-spacing: 0.09px;
+color: #F3EDE7;
+padding: 16px;
+  }
+  .box2Itjustworks h2 {
+    color:white;
+    
+  }
+  .smalltexjeremyrobinson {
+    color: white;
+    margin-bottom: 70px;
+
+  }
+  footer{
+    height: 320px;
+
+border-radius: 0px;
+margin-left: 16px;
+  display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #F3EDE7;
+           
+  }
+  footer h1 {
+    margin-left: 150px;
+    margin-top: 33px;
+    
+  }
+ .copyright {
+
+  margin-left: 130px;
+  margin-top: 33px;
+  margin-bottom: 33px;
+
+ }
+ .boxforfooterlogos {
+  display: flex;
+  justify-content: space-around;
+  margin-top:33px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 80px;
+
+ }
+
+ .supersolutionbox svg {
+
+  margin-left: 450px;
+  margin-top: 30px;     
+  width: 300px;
+  height: 20px;
+  color: #172339;
+    }
+
+
+.superlighttext {
+width: 343px;
+height: 84px;
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: 0.0888889px;
+color: #49566D; }
+ 
+ .tabhero{
+  display: none;
+
+ }
+
+
+
+ @media screen and (min-width:768px) {
+
+  main {
+    margin: 40px;
+    width: 768px;
+  }
+  header {
+    
+    margin: 40px;
+    width: 768px;
+  }
+  .supersolutionbox {
+    margin-top: 65px;
+    gap: 50px;
+    margin-left: -350px;
+    
+    background-image: url(./starter-code/assets/image-hero-portrait@2x.png);
+    display: flex;
+    background-size: 300px ;
+    background-repeat: no-repeat;
+    background-position: right top;
+    
+      }
+
+      .superboldtext {
+        width: 500px;
+      margin-left: 150px;
+      font-family: 'Epilogue';
+      font-weight: 400;
+      font-size: 38px;
+      line-height: 44px;
+      letter-spacing: 0.08px;
+      color: #172339 }
+
+  .mobpicturehero {
+    display: none;
+    
+
+ }
+ .boxfor3smalltexts {
+  display: flex;
+  flex-direction: row;
+  margin-top: 130px;
+  justify-content: space-around;
+  margin-left: 100px;
+ }
+ .smallboldtexts {
+ 
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+    text-align: center;
+  color: #172339;
+  margin-left: -40px;
+   
+  }
+    
+    .smalllighttexts {
+       font-family: 'Epilogue';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      margin-top: 70px;
+      margin-left: -150px;
+      letter-spacing: 2.5px;
+      color: #49566D;
+    }
+  
+ .box2Itjustworks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  background-color: #172339;
+  margin-top: 400px;
+  
+  border-radius: 15px;
+  margin-bottom: -30px;
+    }
+  .box2Itjustworks img {
+width: 252px;
+left: 170px;
+top: 0px;
+border-radius: 0px;
+margin-top: -30%;
+}
+
+footer {
+  margin: 40px;
+  width: 768px;
+height: 300px;
+border-radius: 0px;
+margin-top: -15px;
+display: flex;
+ flex-direction: row;
+justify-content: space-between;
+background: #F3EDE7;
+
+         
+}
+.boxforfooterlogos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100px;
+  margin-top: 150px;
+    
+
+}
+footer h1 {
+  margin-left: 40px;
+  margin-top: 150px;
+  
+}
+.copyright {
+  margin-left: 150px;
+  margin-top: 150px;
+
+ 
+ }
+ 
+ }
+
+
+  
+
+@media screen and (min-width:992px) {
+
+  main {
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    Width:1109px;
+   
+  }
+  header {
+
+    display: flex;
+    justify-content: space-between;
+    Width:1109px;
+    
+     
+  }
+  .supersolutionbox {
+    
+    margin-top: -20px;
+    margin-left: -550px;
+    margin-right: 400px;
+    background-image: url(./starter-code/assets/image-hero-portrait@2x.png);
+    display: flex;
+    background-size:350px ;
+    background-repeat: no-repeat;
+    background-position: right top;
+    
+      }
+
+      .superboldtext {
+        width: 500px;
+      margin-left: 150px;
+      font-family: 'Epilogue';
+      font-weight: 400;
+      font-size: 38px;
+      line-height: 44px;
+      letter-spacing: 0.08px;
+      color: #172339 }
+      
+      .boxfor3smalltexts {
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        width: 170px;
+        margin-top:-450px;
+        margin-left: 820px;
+      }
+      .smallboldtexts {
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+        color: #172339;
+        margin-top: 20px;
+        
+        }
+          
+          .smalllighttexts {
+            
+            font-family: 'Epilogue';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            margin-left: 190px;
+            margin-top: -5px;
+            letter-spacing: 2.5px;
+            color: #49566D;
+           
+               }
+
+.buttonrequestbeta { 
+background: linear-gradient(135deg, #A060FF 0%, #CB30E3 49.21%, #FFA84E 100%);
+border-radius: 6px;
+               }
+               .box2Itjustworks {
+                display: flex;
+                flex-direction: column;
+                justify-content:space-between;
+                gap: 20px;
+                align-items: center;
+                background-color: #172339;
+                margin-top: 300px;
+                height: 545px;
+width: 1109px;
+border-radius: 15px;
+margin-left: -100px;
+                                }
+.box2Itjustworks img {         
+ margin-top: -5%;
+height: 589.5569458007812px;
+width: 359.81011962890625px;
+border-radius: 0px;
+margin-left: -600px;
+             }
+             .boldtextbox2 {
+margin-top:-50px;
+margin-left: 400px;
+ height: 56px;
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+letter-spacing: -0.5px;
+color: #FAF8F6;
+
+                }
+                .lighttextbox2 {
+                  margin-left: 400px;
+                  width: 400px;
+                  font-family: 'Epilogue';
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 20px;
+                  line-height: 35px;
+                  letter-spacing: 0.1px;
+                  color: #FAF8F6;
+                }
+                .box2Itjustworks h2 {
+                  margin-left: 400px;
+                }
+                .smalltexjeremyrobinson {
+                  margin-left: 400px;
+                }
+                .colorsvg {
+                 display: none;
+           
+                }
+
+                .sign {
+                  margin-left: -150px;
+                  margin-top: -500px;
+                }
+              footer {
+                width:1109px;
+                margin-left: 60px;
+                margin-top: -30px;
+                      
+             
+  }
+}
+ 
